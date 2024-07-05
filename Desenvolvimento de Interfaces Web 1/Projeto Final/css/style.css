@@ -12,36 +12,34 @@ header{
     padding-bottom: 10px;
 }
 .header-centralizar{
-    background-color: #24bdbd;
-    width: 80%;
+    width: 70%;
     align-content: center;
     margin: 0 auto;
 }
 .logo{
-    background-color: blue;
     float: inline-start;
-    width: 15%;
+    width: 1%;
     text-align: center;
 }
 .logo img{
     height: 90px;
 }
 .paginas{
-    background-color: red;
     float: inline-end;
-    width: 85%;
+    width: 99%;
     text-align: center;
+    height: 95px;
+    align-content: center;
 }
 .paginas a{
     text-decoration: none;
     color: white;
 }
-#Home, #Sobre, #Restaurantes{
-    margin-right: 40px;
-}
 .logo, .paginas{
     display: block;
-    height: 100%;
+}
+#Home, #Sobre, #Restaurantes{
+    margin-right: 40px;
 }
 /* rodapé */
 footer{
