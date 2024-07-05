@@ -3,35 +3,50 @@ body{
     margin: 0;
     padding: 0;
 }
-/* Daqui para baixo é a estilização do cabeçalho */
-.header{
+/* cabeçalho */
+header{
     background-color: #101111;
-    text-align: center;
+    height: auto;
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.header-itens{
-    display: inline-block;
+.header-centralizar{
+    background-color: #24bdbd;
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
 }
 .logo{
-    align-content: center;
+    background-color: blue;
+    float: inline-start;
+    width: 15%;
+    text-align: center;
 }
 .logo img{
-    height: 80px;
-    padding-top: 15px;
+    height: 90px;
 }
-.nav{
-    height: 50px;
-    align-content: center;
+.paginas{
+    background-color: red;
+    float: inline-end;
+    width: 85%;
+    text-align: center;
 }
-.nav a{
-    margin: 0 15px;
-    color: white;
+.paginas a{
     text-decoration: none;
+    color: white;
 }
-/* Daqui para baixo é a estilização do rodapé */
+#Home, #Sobre, #Restaurantes{
+    margin-right: 40px;
+}
+.logo, .paginas{
+    display: block;
+    height: 100%;
+}
+/* rodapé */
 footer{
     background-color: #101111;
-    height: 32vh;
+    height: auto;
     align-content: center;
     color: white;
 }
@@ -57,13 +72,9 @@ footer{
 .esquerda, .direita{
     display: block;
     height: 100%;
-    align-content: center;
 }
-.esquerda ul, .direita ul{
-    list-style: none;
-}
-.esquerda li, .direita li{
-    margin-bottom: 8px;
+.esquerda p, .direita p{
+    margin-bottom: 6px;
 }
 .esquerda a, .direita a{
     text-decoration: none;
