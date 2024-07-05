@@ -4,31 +4,22 @@ body{
     padding: 0;
 }
 .header{
-    background-color: rgb(91, 91, 91);
+    background-color: #101111;
     text-align: center;
     color: white;
 }
 .header-itens{
     display: inline-block;
-    
 }
 .logo{
     align-content: center;
-    background-color: aqua;
-    margin: auto;
 }
 .logo img{
     height: 80px;
-    float: left;
-    padding-right: 20px;
-}
-.logo h2{
-    font-size: 32px;
-    float: left;
+    padding-top: 15px;
 }
 .nav{
-    background-color: red;
-    height: 90px;
+    height: 50px;
     align-content: center;
 }
 .nav a{
