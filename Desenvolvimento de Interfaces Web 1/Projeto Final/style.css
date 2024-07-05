@@ -23,7 +23,6 @@ body{
     align-content: center;
 }
 .nav a{
-    
     margin: 0 15px;
     color: white;
     text-decoration: none;
@@ -32,6 +31,42 @@ main{
     background-color: green;
 }
 footer{
-    background-color: bisque;
-    height: 20vh;
+    background-color: #101111;
+    height: 32vh;
+    align-content: center;
+    color: white;
+}
+.dev{
+    text-align: center;
+    color: #616161;
+}
+.dev a{
+    color: #868686;
+    text-decoration: none;
+}
+.centralizar{
+    width: 60%;
+    align-content: center;
+    margin: 0 auto;
+}
+.esquerda{
+    float: inline-start;
+}
+.direita{
+    float: inline-end;
+}
+.esquerda, .direita{
+    display: block;
+    height: 100%;
+    align-content: center;
+}
+.esquerda ul, .direita ul{
+    list-style: none;
+}
+.esquerda li, .direita li{
+    margin-bottom: 8px;
+}
+.esquerda a, .direita a{
+    text-decoration: none;
+    color: white;
 }
