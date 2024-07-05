@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/* Daqui para baixo é a estilização do cabeçalho */
 .header{
     background-color: #101111;
     text-align: center;
@@ -27,9 +28,7 @@ body{
     color: white;
     text-decoration: none;
 }
-main{
-    background-color: green;
-}
+/* Daqui para baixo é a estilização do rodapé */
 footer{
     background-color: #101111;
     height: 32vh;
