@@ -29,10 +29,8 @@
     margin-bottom: 30px;
 }
 .card1, .card2, .card3{
-    width: 30%;
+    width: 33%;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 .card1 img, .card2 img, .card3 img{
     width: 50%;
@@ -79,4 +77,21 @@
 }
 .quemsomos-texto button:hover{
     background-color: rgb(241, 204, 157);
+    font-weight: bold;
+}
+/* sessão - nossos restaurantes */
+.nossos-restaurantes{
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    background-color: aquamarine;
+}
+.restaurante{
+    width: 33%;
+    display: inline-block;
+}
+.restaurante img{
+    width: 90%;
 }

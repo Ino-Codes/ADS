@@ -35,6 +35,11 @@ header{
     text-decoration: none;
     color: white;
 }
+.paginas a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
 .logo, .paginas{
     display: block;
 }
@@ -56,6 +61,10 @@ footer{
     color: #868686;
     text-decoration: none;
 }
+.dev a:hover{
+    color: #bebebe;
+    text-decoration: underline;
+}
 .centralizar{
     width: 60%;
     align-content: center;
@@ -76,5 +85,10 @@ footer{
 }
 .esquerda a, .direita a{
     text-decoration: none;
+    color: white;
+}
+.esquerda a:hover, .direita a:hover{
+    text-decoration: none;
+    font-weight: bold;
     color: white;
 }
