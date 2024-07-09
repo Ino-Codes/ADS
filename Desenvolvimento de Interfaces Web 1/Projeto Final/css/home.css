@@ -44,6 +44,7 @@
     align-content: center;
     margin: 0 auto;
     margin-top: 40px;
+    color: black;
 }
 .quemsomos-imagem{
     width: 45%;
@@ -70,14 +71,15 @@
 .quemsomos-texto button{
     width: 100px;
     height: 30px;
-    background-color: antiquewhite;
+    background-color: rgb(233, 197, 153);
     border: none;
     border-radius: 25px;
     color: black;
 }
 .quemsomos-texto button:hover{
-    background-color: rgb(241, 204, 157);
-    font-weight: bold;
+    background-color: rgb(241, 186, 113);
+    border: solid 1px rgb(236, 159, 58);
+    box-shadow: 0px 0px 8px gray;
 }
 /* sessão - nossos restaurantes */
 .nossos-restaurantes{
@@ -86,12 +88,20 @@
     margin: 0 auto;
     text-align: center;
     margin-top: 40px;
-    background-color: aquamarine;
+    margin-bottom: 40px;
 }
 .restaurante{
-    width: 33%;
+    width: 30%;
     display: inline-block;
 }
 .restaurante img{
     width: 90%;
+}
+.restaurante a, .nossos-restaurantes a{
+    text-decoration: none;
+    color: black;
+}
+.restaurante a:hover{
+    font-weight: bold;
+    color: black;
 }
