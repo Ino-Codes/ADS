@@ -1,0 +1,33 @@
+/* sessão - matriz */
+.matriz{
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.matriz img{
+    height: 400px;
+}
+.matriz h2{
+    font-size: 22px;
+}
+/* sessão - unidades */
+.as-unidades{
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.as-unidades h2{
+    font-size: 22px;
+}
+.unidades{
+    column-count: 3;
+    column-gap: 10px;
+}
+.unidades img{
+    width: 100%;
+    margin-bottom: 10px;
+}

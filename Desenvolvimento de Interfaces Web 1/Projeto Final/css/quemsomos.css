@@ -1,0 +1,86 @@
+/* sessão - imagem institucional */
+.imagem-topo{
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.imagem-topo img{
+    width: 100%;
+    height: auto;
+}
+/* sessão - titulo da pagina */
+.titulo{
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.titulo h2{
+    font-size: 22px;
+}
+/* sessão - nossa historia */
+.historia{
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 40px;
+}
+.historia-esq{
+    width: 55%;
+    display: block;
+    float: inline-start;
+}
+.historia-dir{
+    width: 40%;
+    display: block;
+    float: inline-end;
+}
+.historia-dir img{
+    width: 100%;
+}
+/* sessão - ramo de atuação */
+.produtos{
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 40px;
+}
+.produtos-esq{
+    width: 40%;
+    display: block;
+    float: inline-start;
+    margin-right: 5%;
+}
+.produtos-dir{
+    width: 55%;
+    display: block;
+    float: inline-end;
+}
+.produtos-esq img{
+    width: 100%;
+}
+/* sessão - premiações */
+.premios{
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.premios-esq{
+    width: 40%;
+    display: block;
+    float: inline-start;
+    margin-right: 5%;
+}
+.premios-dir{
+    width: 40%;
+    display: block;
+    float: inline-end;
+    margin-left: 5%;
+}
+.premios-esq img, .premios-dir img{
+    height: 300px;
+}

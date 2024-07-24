@@ -77,8 +77,8 @@
     color: black;
 }
 .quemsomos-texto button:hover{
-    background-color: rgb(241, 186, 113);
-    border: solid 1px rgb(236, 159, 58);
+    background-color: rgb(247, 211, 165);
+    border: solid 1px rgb(233, 197, 153);
     box-shadow: 0px 0px 8px gray;
 }
 /* sessão - nossos restaurantes */
