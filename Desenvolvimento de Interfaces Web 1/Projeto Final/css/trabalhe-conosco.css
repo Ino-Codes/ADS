@@ -1,0 +1,50 @@
+/* sessão - titulo da pagina */
+.titulo{
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.titulo img{
+    width: 100%;
+}
+/* sessão - formulário */
+.formulario{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+form{
+    margin: 0 auto;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea{
+    height: 100px;
+}
+button{
+    display: block;
+    background-color: rgb(233, 197, 153);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: rgb(248, 220, 183);
+    cursor: pointer;
+} 

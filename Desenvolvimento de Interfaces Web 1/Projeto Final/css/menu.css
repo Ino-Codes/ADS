@@ -1,0 +1,63 @@
+/* sessão - imagem institucional */
+.imagem-topo{
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.imagem-topo img{
+    width: 100%;
+    height: auto;
+}
+/* sessão - titulo da pagina */
+.titulo{
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.titulo h2{
+    font-size: 22px;
+}
+/* sessão - pizzas */
+.pizza{
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 40px;
+}
+.pizza-esq{
+    width: 55%;
+    display: block;
+    float: inline-start;
+}
+.pizza-dir{
+    width: 40%;
+    margin-left: 5%;
+    display: block;
+    float: inline-end;
+}
+.pizza-dir img{
+    width: 100%;
+}
+/* sessão - pizzas */
+.calzones{
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 40px;
+}
+.calzone-esq{
+    width: 40%;
+    margin-right: 5%;
+    display: block;
+    float: inline-start;
+}
+.calzone-dir{
+    width: 55%;
+    display: block;
+    float: inline-end;
+}
+.calzone-esq img{
+    width: 100%;
+}
