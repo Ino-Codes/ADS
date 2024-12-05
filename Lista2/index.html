@@ -8,22 +8,31 @@
 </head>
 <body>
     <div class="centralizar">
-        <h1>Inácio de Moraes Lindenmeyer</h1>
-        <img class="foto_perfil" src="fotos/fotoperfil.png" alt="Foto de perfil do Inácio">
-        <p class="bio">
+        <h1 id="meu-nome">Inácio de Moraes Lindenmeyer</h1>
+        <div id="cores">
+            <button class="cor" id="vermelho" data-color="rgb(223, 15, 15)">Vermelho</button>
+            <button class="cor" id="verde" data-color="rgb(49, 151, 36)">Verde</button>
+            <button class="cor" id="azul" data-color="rgb(46, 102, 223)">Azul</button>
+        </div>
+
+        <img id="foto_perfil" src="fotos/fotoperfil.png" alt="Foto de perfil do Inácio">
+        <p id="bio">
             Tenho 20 anos, sou de São Leopoldo/RS, estou cursando ADS
             pois sempre me interessei muito por tecnologia, e quanto tive meu
-            primeiro contato com programação adorei o conceito de pensamento computacional,
-            onde aplicamos a lógica em códigos para resolver problemas da vida real :)
+            primeiro contato com programação adorei o conceito de pensamento computacional e a
+            aplicação da lógica em códigos para resolver problemas da vida real :)
         </p>
-        <ul>Hobbies:
+        <h2>Meus hobbies são:</h2>
+        <ul>
             <li>Desenhar</li>
             <li>Jogar videogame</li>
             <li>Ler</li>
         </ul>
+        <p>Veja meu perfil no Instagram clicando no ícone abaixo!</p>
         <a href="https://instagram.com/iam_inacio">
-            <img class="insta" src="fotos/insta_icon.png" alt="Botão com link para perfil do Instagram">
+            <img id="insta" src="fotos/insta_icon.png" alt="Botão com link para perfil do Instagram">
         </a>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

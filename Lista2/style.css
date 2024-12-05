@@ -12,7 +12,7 @@ body{
     border-radius: 24px;
     border: 3px solid #31511E;
 }
-.foto_perfil{
+#foto_perfil{
     width: 250px;
     height: 250px;
 }
@@ -20,12 +20,39 @@ h1{
     font-family: cursive;
     font-style: italic;
 }
-.bio{
+h2{
+    font-size: 20px;
+}
+#bio{
     width: 80%;
 }
-.insta{
+#insta{
     width: 50px;
     height: 50px;
     border-radius: 100%;
     margin-bottom: 25px;
+}
+#cores{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+button.cor{
+margin: 5px;
+padding: 10px 15px;
+font-size: 12px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+button.cor[id="vermelho"]{
+background-color: #1A1A19;
+color: rgb(223, 15, 15);
+}
+button.cor[id="verde"]{
+background-color: #1A1A19;
+color: rgb(49, 151, 36);
+}
+button.cor[id="azul"]{
+background-color: #1A1A19;
+color: rgb(46, 102, 223);
 }
